@@ -1,0 +1,16 @@
+{
+  "name": "neofetch-for-github",
+  "version": "1.0.0",
+  "description": "NeoFetch for Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "simple-icons": "^10.3.0",
+    "svg2img": "^1.0.0-beta.2"
+  }
+}
