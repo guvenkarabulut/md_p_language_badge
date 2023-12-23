@@ -4,7 +4,7 @@ const badgeRoutes = require('./src/routes/badgeRoutes');
 const app = express();
 const port = 3000;
 
-app.use('/neofetch', getSvgRoutes);
+// app.use('/neofetch', getSvgRoutes);
 app.use('/badge', badgeRoutes);
 
 app.listen(port, () => {
