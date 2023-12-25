@@ -2,7 +2,9 @@ const createBadge = require('../utils/createBadge');
 const svg2img = require('svg2img');
 
 async function get(req, res) {
-  const svgContent = createBadge(req.params.slug)
+  const badgeColor = req.query.badge_color || '279';
+  const borderColor = req.query.border_color || '279';
+  const svgContent = createBadge(req.params.slug, badgeColor, borderColor)
   svg2img(svgContent, (error, buffer) => {
     if (error) {
       console.error(error);
