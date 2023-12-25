@@ -1,5 +1,5 @@
 const express = require('express');
-const getSvgRoutes = require('./src/routes/getSvgRoutes');
+// const getSvgRoutes = require('./src/routes/getSvgRoutes');
 const badgeRoutes = require('./src/routes/badgeRoutes');
 const app = express();
 const port = 3000;
