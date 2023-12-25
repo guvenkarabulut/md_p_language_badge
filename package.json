@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "NeoFetch for Github",
   "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-build": "echo hello"
   },
   "author": "",
   "license": "ISC",
